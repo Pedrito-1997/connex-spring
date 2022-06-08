@@ -14,6 +14,7 @@ script:
   - mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=pedrito-1997 -Dsonar.login=$SONAR
 deploy:
   provider: heroku
-  api_key: $HEROKU
+  api_key: 
+    secure: $HEROKU
   on:
     branch: master
