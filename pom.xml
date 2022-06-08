@@ -33,7 +33,7 @@
         <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
         <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
         <!-- Java -->
-        <jdk.version>1.8</jdk.version>
+        <jdk.version>11</jdk.version>
         <deploy>${project.artifactId}-${project.version}</deploy>
         <!-- Maven -->
         <maven.compiler.version>3.8.5</maven.compiler.version>
