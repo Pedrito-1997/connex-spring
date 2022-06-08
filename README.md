@@ -11,4 +11,4 @@ realizado en Angular.
 [![Heroku broken](https://connex-spring.herokuapp.com/api/v0/system/version-badge)](https://connex-spring.herokuapp.com/api/v0/system/app-info)
 
 ### Tecnologías necesarias
-`Java (8)` `Maven (3.8)` `Spring-Boot (2.1)` `Reactor` `MongoDB (4.0)` `GitHub` `Travis-CI` `Sonarcloud` `Better Code Hub` `Heroku`
+`Java (11)` `Maven (3.8)` `Spring-Boot (2.1)` `Reactor` `MongoDB (4.0)` `GitHub` `Travis-CI` `Sonarcloud` `Better Code Hub` `Heroku`
