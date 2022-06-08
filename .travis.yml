@@ -8,7 +8,7 @@ notifications:
   email:
     recipients:
     - jguillen.pedromagdaleno@gmail.com
-install:
+install: 
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-script:
+script: 
   - mvn verify
