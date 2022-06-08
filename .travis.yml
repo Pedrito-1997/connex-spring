@@ -7,6 +7,6 @@ branches:
 notifications:
   email:
     recipients:
-    - pedro.mape97@gmail.com
+    - jguillen.pedromagdaleno@gmail.com
 script:
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
