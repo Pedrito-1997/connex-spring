@@ -12,7 +12,7 @@ install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
   - mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=pedrito-1997 -Dsonar.login=$SONAR
- before_deploy:
+before_deploy:
   - rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install faraday -v 1.8.0
 deploy:
   provider: heroku
